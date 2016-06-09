@@ -7,3 +7,5 @@ Ideally, the videos will be footage from different angles of a room. I want the 
 I will also need a save function so that the user can save their progress and not have to redraw the boxes once they close out the application. I also need a load function to load the videos they want to view. Ideally the layout would be able to look nice with different numbers of videos.
 
 Right now, everything is hardcoded, and I will eventually need to find a way to code it dynamically. I am currently working on the buttons, and possibly maintaining the aspect ratio of the videos if the user decides to change the size of the window.
+
+some changes
