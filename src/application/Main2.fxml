@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.net.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<FlowPane hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="910.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <MediaView fx:id="mv3" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp3">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv4" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp4">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv6" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp6">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv1" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp1">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv2" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp2">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv5" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp5">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv7" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp7">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <MediaView fx:id="mv8" fitHeight="0.0" fitWidth="300.0">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp8">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246(2).mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+      <Pane prefHeight="60.0" prefWidth="140.0">
+         <children>
+            <Button fx:id="b1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#play" text="Play" />
+            <Button fx:id="b2" layoutX="71.0" layoutY="14.0" mnemonicParsing="false" onAction="#pause" text="Pause" />
+         </children>
+      </Pane>
+   </children>
+</FlowPane>

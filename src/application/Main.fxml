@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.net.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#play" text="Play" />
+            <Button fx:id="b2" mnemonicParsing="false" onAction="#pause" text="Pause" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <MediaView fx:id="mv3" fitHeight="0.0" fitWidth="400.0" BorderPane.alignment="CENTER">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp3">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246.mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+   </top>
+   <bottom>
+      <MediaView fx:id="mv4" fitHeight="0.0" fitWidth="400.0" BorderPane.alignment="CENTER">
+         <mediaPlayer>
+            <MediaPlayer fx:id="mp4">
+               <media>
+                  <Media>
+                     <source>
+                        <URL value="@../../../../reu/IMG_3246%20copy.mp4" />
+                     </source>
+                  </Media>
+               </media>
+            </MediaPlayer>
+         </mediaPlayer>
+      </MediaView>
+   </bottom>
+</BorderPane>
